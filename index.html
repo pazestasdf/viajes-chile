@@ -40,13 +40,14 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -78,9 +79,9 @@
         </div>
     </section>
     <!--Parrafos en Grid-->
-    <section class="container-fluid wide">
-        <div class="title pt-2">
-            <h4 class="text-center text-white">¿Quienes somos?</h4>
+    <section class="container-fluid wide d-none d-lg-block mb-5">
+        <div class="title pt-2 py-5" id="quienes-somos">
+            <h4 class="text-center text-white mb-4">¿Quienes somos?</h4>
             <hr class="bg-info">
         </div>
         <div class="row px-4">
@@ -116,13 +117,16 @@
                     pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
             </div>
         </div>
+    </section>
+
+    <section class="container-fluid wide">
         <!--Card Deck-->
-        <div class="title pt-2">
-            <h4 class="text-center text-white">Destacados</h4>
+        <div class="title pt-2" id="destacados">
+            <h4 class="text-center text-white mb-4 mt-5">Destacados</h4>
         </div>
         <hr class="bg-info">
 
-        <div class="card-deck px-4">
+        <div class="card-deck px-4 pb-5">
             <div class="card">
                 <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image cap">
                 <div class="card-body bg-info">
@@ -160,38 +164,35 @@
                 </div>
             </div>
         </div>
-        <div class="title pt-2">
-            <h4 class="text-center text-white">Contacto</h4>
+        <div class="title pt-2" id="contacto">
+            <h4 class="text-center text-white mb-4 mt-5">Contacto</h4>
         </div>
         <hr class="bg-info">
         <!--Typeform-->
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/dszdKqe8?typeform-medium=embed-snippet"
+        <div class="typeform-widget px-4 pb-5" data-url="https://form.typeform.com/to/dszdKqe8?typeform-medium=embed-snippet"
             style="width: 100%; height: 500px;">
         </div>
 
     </section>
-    <!--footer-->
-    <footer>
+   
+    <footer class="container-fluid">
+        <div class="row bg-info py-2 thin-footer">
+            <div class="col-5">
 
-        <div class="row bg-info">
-            <div clas="col-5">
-
-                <h2 class="text-white mx-5">Viajes Chile</h2>
+                <h2 class="text-white mx-5 py-2 text-uppercase">Viajes Chile</h2>
 
             </div>
-            <!--Redes Sociales-->
-            <div class="col-7 text-right text-white">
-                <i class="fab fa-github-square"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-facebook-square"></i>
+            
+            <div class="col-7 text-right py-2">
+                <a href="https://github.com"><i class="fab fa-github-square text-white px-2"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter-square text-white px-2"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin text-white px-2"></i></a>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-square text-white px-2"></i></a>
             </div>
         </div>
 
 
     </footer>
-
-
 
 
     <!--jQuery, bootstrap, script.js-->
