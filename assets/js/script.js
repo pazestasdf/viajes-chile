@@ -1,3 +1,4 @@
+//agrego funcion de typeform//
 (function () {
     var qs, js, q, s, d = document,
         gi = d.getElementById,
@@ -13,3 +14,12 @@
         q.parentNode.insertBefore(js, q)
     }
 })()
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+
+    $(".nav-link").on('click', function(){
+        $(".nav-link").css("color","");
+        $(this).css("color","aqua");
+    })
+})
