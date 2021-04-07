@@ -21,11 +21,13 @@ body{
         object-fit: cover;
     }
 }
+
 .wide{
     padding-left: 7%;
     padding-right: 7%;
     
 }
+
 i{
     font-size: 30px;
 }
